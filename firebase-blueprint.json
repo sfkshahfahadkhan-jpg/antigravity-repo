@@ -1,0 +1,256 @@
+{
+  "entities": {
+    "student": {
+      "title": "Student",
+      "description": "A student registered to take quizzes",
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string",
+          "format": "email"
+        },
+        "registeredAt": {
+          "type": "number"
+        },
+        "streak": {
+          "type": "number"
+        },
+        "lastActiveDate": {
+          "type": "string"
+        },
+        "achievements": {
+          "type": "array"
+        },
+        "isPremium": {
+          "type": "boolean"
+        },
+        "unlockedSections": {
+          "type": "array"
+        },
+        "xp": {
+          "type": "number"
+        },
+        "level": {
+          "type": "number"
+        },
+        "topicMastery": {
+          "type": "object"
+        },
+        "premiumUntil": {
+          "type": "number"
+        },
+        "role": {
+          "type": "string",
+          "enum": [
+            "student",
+            "editor",
+            "admin"
+          ]
+        }
+      },
+      "required": [
+        "name",
+        "email",
+        "registeredAt"
+      ]
+    },
+    "submission": {
+      "title": "Quiz Submission",
+      "description": "A student's score for a specific quiz module",
+      "type": "object",
+      "properties": {
+        "studentEmail": {
+          "type": "string",
+          "format": "email"
+        },
+        "studentName": {
+          "type": "string"
+        },
+        "score": {
+          "type": "number"
+        },
+        "total": {
+          "type": "number"
+        },
+        "sectionName": {
+          "type": "string"
+        },
+        "submittedAt": {
+          "type": "number"
+        },
+        "flaggedQuestions": {
+          "type": "array"
+        }
+      },
+      "required": [
+        "studentEmail",
+        "studentName",
+        "score",
+        "total",
+        "sectionName",
+        "submittedAt"
+      ]
+    },
+    "live_progress": {
+      "title": "Live Student Progress",
+      "description": "Real-time tracking of a student's current quiz effort",
+      "type": "object",
+      "properties": {
+        "studentEmail": {
+          "type": "string",
+          "format": "email"
+        },
+        "studentName": {
+          "type": "string"
+        },
+        "sectionName": {
+          "type": "string"
+        },
+        "currentQuestionIndex": {
+          "type": "number"
+        },
+        "totalQuestions": {
+          "type": "number"
+        },
+        "score": {
+          "type": "number"
+        },
+        "lastUpdated": {
+          "type": "number"
+        },
+        "isFinished": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "studentEmail",
+        "studentName",
+        "sectionName",
+        "currentQuestionIndex",
+        "totalQuestions",
+        "score",
+        "lastUpdated",
+        "isFinished"
+      ]
+    },
+    "access_code": {
+      "title": "Access Code",
+      "description": "Premium access codes with durations",
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string"
+        },
+        "section": {
+          "type": "string"
+        },
+        "active": {
+          "type": "boolean"
+        },
+        "createdAt": {
+          "type": "number"
+        },
+        "duration": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "code",
+        "section",
+        "active",
+        "createdAt"
+      ]
+    },
+    "site_config": {
+      "title": "Site Configuration",
+      "description": "Global website content and visual settings",
+      "type": "object",
+      "properties": {
+        "academyName": {
+          "type": "string"
+        },
+        "heroHeading1": {
+          "type": "string"
+        },
+        "heroHeading2": {
+          "type": "string"
+        },
+        "missionStatement": {
+          "type": "string"
+        },
+        "founderBio": {
+          "type": "string"
+        },
+        "socialLinks": {
+          "type": "object"
+        },
+        "layoutOrder": {
+          "type": "array"
+        },
+        "founderImageUrl": {
+          "type": "string"
+        },
+        "videoTitle": {
+          "type": "string"
+        },
+        "videoUrl": {
+          "type": "string"
+        },
+        "mediaSections": {
+          "type": "array"
+        }
+      }
+    },
+    "dynamic_quiz": {
+      "title": "Dynamic Quiz",
+      "description": "User uploaded quiz data",
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "subject": {
+          "type": "string"
+        },
+        "questions": {
+          "type": "array"
+        },
+        "uploadedAt": {
+          "type": "number"
+        },
+        "isPremium": {
+          "type": "boolean"
+        }
+      }
+    }
+  },
+  "firestore": {
+    "/students/{email}": {
+      "schema": "student",
+      "description": "Collection of registered students indexed by email"
+    },
+    "/submissions/{submissionId}": {
+      "schema": "submission",
+      "description": "Collection of all quiz attempts"
+    },
+    "/live_progress/{email}": {
+      "schema": "live_progress",
+      "description": "Real-time records of students currently attempting tests"
+    },
+    "/access_codes/{codeId}": {
+      "schema": "access_code",
+      "description": "Codes to unlock premium segments"
+    },
+    "/site_configs/{configId}": {
+      "schema": "site_config",
+      "description": "Global site settings"
+    },
+    "/quizzes/{quizId}": {
+      "schema": "dynamic_quiz",
+      "description": "Custom user-uploaded quizzes"
+    }
+  }
+}

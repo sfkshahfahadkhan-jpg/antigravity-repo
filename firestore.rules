@@ -1,0 +1,122 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Default deny
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isAdmin() {
+      return isSignedIn() && (request.auth.token.email == 'sfkshahfahadkhan@gmail.com' || request.auth.token.email == 'fshah8133@gmail.com');
+    }
+
+    function isValidId(id) {
+      return id is string && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-\\.]+$');
+    }
+
+    function isValidStudent(data) {
+      return data.get('name', '') is string &&
+             data.get('email', '') is string;
+    }
+
+    function isValidSubmission(data) {
+      return data.keys().hasAll(['studentEmail', 'studentName', 'score', 'total', 'sectionName', 'submittedAt']) &&
+             data.studentEmail is string && data.studentEmail.size() <= 200 &&
+             data.studentName is string && data.studentName.size() <= 200 &&
+             data.score is number &&
+             data.total is number &&
+             data.sectionName is string &&
+             data.submittedAt is number &&
+             (data.get('flaggedQuestions', []) is list);
+    }
+
+    function isValidLiveProgress(data) {
+      return data.keys().hasAll(['studentEmail', 'studentName', 'sectionName', 'currentQuestionIndex', 'totalQuestions', 'score', 'lastUpdated', 'isFinished']) &&
+             data.studentEmail is string && data.studentEmail.size() <= 200 &&
+             data.studentName is string && data.studentName.size() <= 200 &&
+             data.sectionName is string &&
+             data.currentQuestionIndex is number &&
+             data.totalQuestions is number &&
+             data.score is number &&
+             data.lastUpdated is number &&
+             data.isFinished is bool;
+    }
+
+    function isValidAccessCode(data) {
+      return data.code is string && 
+             data.active is bool;
+    }
+
+    function isValidSiteConfig(data) {
+      return data.academyName is string &&
+             data.heroHeading1 is string &&
+             data.heroHeading2 is string &&
+             data.missionStatement is string &&
+             data.founderBio is string;
+    }
+
+    function isValidDynamicQuiz(data) {
+      return data.title is string &&
+             data.subject is string &&
+             (data.get('subCourse', 'General') is string) &&
+             data.questions is list &&
+             data.uploadedAt is number &&
+             data.isPremium is bool;
+    }
+
+    // Student Registry
+    match /students/{email} {
+      allow get: if isAdmin() || (isSignedIn() && request.auth.token.email == email);
+      allow create, update: if isAdmin() || (isSignedIn() && request.auth.token.email == email);
+      allow list: if isAdmin();
+    }
+
+    // Access Codes
+    match /access_codes/{codeId} {
+      allow read, list: if isSignedIn();
+      allow create: if isAdmin() && isValidAccessCode(request.resource.data);
+      allow update: if isAdmin() || (isSignedIn() && 
+                    request.resource.data.active == false &&
+                    request.resource.data.redeemedBy == request.auth.token.email);
+      allow delete: if isAdmin();
+    }
+
+    // Quiz Submissions
+    match /submissions/{submissionId} {
+      allow create: if isSignedIn() &&
+                    isValidSubmission(request.resource.data) &&
+                    request.resource.data.studentEmail == request.auth.token.email;
+      allow get: if isAdmin() || (isSignedIn() && resource.data.studentEmail == request.auth.token.email);
+      allow list: if isAdmin() || (isSignedIn() && resource.data.studentEmail == request.auth.token.email);
+    }
+
+    // Live Progress
+    match /live_progress/{email} {
+      allow read: if isAdmin() || (isSignedIn() && request.auth.token.email == email);
+      allow write: if isSignedIn() && request.auth.token.email == email &&
+                   isValidLiveProgress(request.resource.data);
+    }
+
+    // Site Configs
+    match /site_configs/{configId} {
+      allow read: if true; // Publicly readable for site branding
+      allow write: if isAdmin() && isValidSiteConfig(request.resource.data);
+    }
+
+    // Dynamic Quizzes
+    match /quizzes/{quizId} {
+      allow read, list: if true; // Publicly readable for curriculum display
+      allow write: if isAdmin() && isValidDynamicQuiz(request.resource.data);
+      allow delete: if isAdmin();
+    }
+
+    // Connection Test
+    match /test/{docId} {
+      allow read: if true;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;800&family=Inter:wght@400;500;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Crimson Pro", serif;
+  --font-sans: "Inter", sans-serif;
+  --color-brand-green: #1d442e;
+  --color-brand-gold: #e8a223;
+  --color-brand-green-hover: #2b6142;
+  --color-brand-gold-pale: #fdf5e6;
+  
+  --color-sfk-green-dark: #1d442e;
+  --color-sfk-green-mid: #2b6142;
+  --color-sfk-gold: #e8a223;
+  --color-sfk-cream: #fdf5e6;
+}
+
+@variant dark (&:where(.dark, .dark *));
+
+.heading-serif {
+  font-family: var(--font-serif);
+}

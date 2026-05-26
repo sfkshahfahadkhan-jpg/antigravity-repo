@@ -1,0 +1,626 @@
+[
+  {
+    "subject": "Chemistry",
+    "text": "Which of the following molecules has a trigonal planar geometry?",
+    "options": [
+      "A. H2O",
+      "B. CO2",
+      "C. BF3",
+      "D. NH3"
+    ],
+    "correctAnswer": "C. BF3",
+    "explanation": "Boron trifluoride has three bonding pairs and no lone pairs on the central atom, resulting in a trigonal planar geometry."
+  },
+  {
+    "subject": "Chemistry",
+    "text": "What is the standard enthalpy of formation of O2(g) at 298 K?",
+    "options": [
+      "A. 0 kJ/mol",
+      "B. 100 kJ/mol",
+      "C. -100 kJ/mol",
+      "D. 10 kJ/mol"
+    ],
+    "correctAnswer": "A. 0 kJ/mol",
+    "explanation": "By definition, the standard enthalpy of formation for an element in its most stable form under standard conditions is zero."
+  },
+  {
+    "subject": "Chemistry",
+    "text": "Which of the following is a strong electrolyte in aqueous solution?",
+    "options": [
+      "A. Acetic acid",
+      "B. Ammonia",
+      "C. Sodium chloride",
+      "D. Ethanol"
+    ],
+    "correctAnswer": "C. Sodium chloride",
+    "explanation": "Sodium chloride completely dissociates into ions in water, making it a strong electrolyte."
+  },
+  {
+    "subject": "Chemistry",
+    "text": "The half-life of a radioactive isotope is 5 years. What fraction of the original sample will remain after 15 years?",
+    "options": [
+      "A. 1/2",
+      "B. 1/4",
+      "C. 1/8",
+      "D. 1/16"
+    ],
+    "correctAnswer": "C. 1/8",
+    "explanation": "15 years is exactly 3 half-lives. The remaining fraction is (1/2)^3 = 1/8."
+  },
+  {
+    "subject": "Physics",
+    "text": "A 2kg mass is dropped from a height of 5 meters. What is its kinetic energy just before striking the ground? (Use g = 10 m/s²)",
+    "options": [
+      "A. 10 J",
+      "B. 50 J",
+      "C. 100 J",
+      "D. 200 J"
+    ],
+    "correctAnswer": "C. 100 J",
+    "explanation": "All potential energy is converted to kinetic energy. PE = mgh = 2 kg * 10 m/s² * 5 m = 100 J."
+  },
+  {
+    "subject": "Science Reasoning",
+    "text": "A biologist conducts an experiment observing enzyme activity. At temperature 21°C, the reaction rate was measured at 12 mmol/s. If the trend is strictly linear within this range, what is the best description of the relationship?",
+    "options": [
+      "A. The rate decreases by exactly 1 mmol/s per degree.",
+      "B. The reaction rate is independent of temperature.",
+      "C. The reaction rate increases linearly with temperature within the studied range.",
+      "D. The enzyme denatures completely above 20°C."
+    ],
+    "correctAnswer": "C. The reaction rate increases linearly with temperature within the studied range.",
+    "explanation": "Because the measured rate increases progressively to 12 mmol/s as temperature rises over this specific interval, the directly proportional data supports a linear increase prior to any hypothetical denaturation."
+  },
+  {
+    "subject": "Science Reasoning",
+    "text": "A biologist conducts an experiment observing enzyme activity. At temperature 22°C, the reaction rate was measured at 14 mmol/s. If the trend is strictly linear within this range, what is the best description of the relationship?",
+    "options": [
+      "A. The rate decreases by exactly 2 mmol/s per degree.",
+      "B. The reaction rate is independent of temperature.",
+      "C. The reaction rate increases linearly with temperature within the studied range.",
+      "D. The enzyme denatures completely above 20°C."
+    ],
+    "correctAnswer": "C. The reaction rate increases linearly with temperature within the studied range.",
+    "explanation": "Because the measured rate increases progressively to 14 mmol/s as temperature rises over this specific interval, the directly proportional data supports a linear increase prior to any hypothetical denaturation."
+  },
+  {
+    "subject": "Science Reasoning",
+    "text": "A biologist conducts an experiment observing enzyme activity. At temperature 23°C, the reaction rate was measured at 16 mmol/s. If the trend is strictly linear within this range, what is the best description of the relationship?",
+    "options": [
+      "A. The rate decreases by exactly 3 mmol/s per degree.",
+      "B. The reaction rate is independent of temperature.",
+      "C. The reaction rate increases linearly with temperature within the studied range.",
+      "D. The enzyme denatures completely above 20°C."
+    ],
+    "correctAnswer": "C. The reaction rate increases linearly with temperature within the studied range.",
+    "explanation": "Because the measured rate increases progressively to 16 mmol/s as temperature rises over this specific interval, the directly proportional data supports a linear increase prior to any hypothetical denaturation."
+  },
+  {
+    "subject": "Science Reasoning",
+    "text": "A biologist conducts an experiment observing enzyme activity. At temperature 24°C, the reaction rate was measured at 18 mmol/s. If the trend is strictly linear within this range, what is the best description of the relationship?",
+    "options": [
+      "A. The rate decreases by exactly 4 mmol/s per degree.",
+      "B. The reaction rate is independent of temperature.",
+      "C. The reaction rate increases linearly with temperature within the studied range.",
+      "D. The enzyme denatures completely above 20°C."
+    ],
+    "correctAnswer": "C. The reaction rate increases linearly with temperature within the studied range.",
+    "explanation": "Because the measured rate increases progressively to 18 mmol/s as temperature rises over this specific interval, the directly proportional data supports a linear increase prior to any hypothetical denaturation."
+  },
+  {
+    "subject": "Science Reasoning",
+    "text": "A biologist conducts an experiment observing enzyme activity. At temperature 25°C, the reaction rate was measured at 20 mmol/s. If the trend is strictly linear within this range, what is the best description of the relationship?",
+    "options": [
+      "A. The rate decreases by exactly 5 mmol/s per degree.",
+      "B. The reaction rate is independent of temperature.",
+      "C. The reaction rate increases linearly with temperature within the studied range.",
+      "D. The enzyme denatures completely above 20°C."
+    ],
+    "correctAnswer": "C. The reaction rate increases linearly with temperature within the studied range.",
+    "explanation": "Because the measured rate increases progressively to 20 mmol/s as temperature rises over this specific interval, the directly proportional data supports a linear increase prior to any hypothetical denaturation."
+  },
+  {
+    "subject": "Science Reasoning",
+    "text": "A biologist conducts an experiment observing enzyme activity. At temperature 26°C, the reaction rate was measured at 22 mmol/s. If the trend is strictly linear within this range, what is the best description of the relationship?",
+    "options": [
+      "A. The rate decreases by exactly 6 mmol/s per degree.",
+      "B. The reaction rate is independent of temperature.",
+      "C. The reaction rate increases linearly with temperature within the studied range.",
+      "D. The enzyme denatures completely above 20°C."
+    ],
+    "correctAnswer": "C. The reaction rate increases linearly with temperature within the studied range.",
+    "explanation": "Because the measured rate increases progressively to 22 mmol/s as temperature rises over this specific interval, the directly proportional data supports a linear increase prior to any hypothetical denaturation."
+  },
+  {
+    "subject": "Science Reasoning",
+    "text": "A biologist conducts an experiment observing enzyme activity. At temperature 27°C, the reaction rate was measured at 24 mmol/s. If the trend is strictly linear within this range, what is the best description of the relationship?",
+    "options": [
+      "A. The rate decreases by exactly 7 mmol/s per degree.",
+      "B. The reaction rate is independent of temperature.",
+      "C. The reaction rate increases linearly with temperature within the studied range.",
+      "D. The enzyme denatures completely above 20°C."
+    ],
+    "correctAnswer": "C. The reaction rate increases linearly with temperature within the studied range.",
+    "explanation": "Because the measured rate increases progressively to 24 mmol/s as temperature rises over this specific interval, the directly proportional data supports a linear increase prior to any hypothetical denaturation."
+  },
+  {
+    "subject": "Science Reasoning",
+    "text": "A biologist conducts an experiment observing enzyme activity. At temperature 28°C, the reaction rate was measured at 26 mmol/s. If the trend is strictly linear within this range, what is the best description of the relationship?",
+    "options": [
+      "A. The rate decreases by exactly 8 mmol/s per degree.",
+      "B. The reaction rate is independent of temperature.",
+      "C. The reaction rate increases linearly with temperature within the studied range.",
+      "D. The enzyme denatures completely above 20°C."
+    ],
+    "correctAnswer": "C. The reaction rate increases linearly with temperature within the studied range.",
+    "explanation": "Because the measured rate increases progressively to 26 mmol/s as temperature rises over this specific interval, the directly proportional data supports a linear increase prior to any hypothetical denaturation."
+  },
+  {
+    "subject": "Science Reasoning",
+    "text": "A biologist conducts an experiment observing enzyme activity. At temperature 29°C, the reaction rate was measured at 28 mmol/s. If the trend is strictly linear within this range, what is the best description of the relationship?",
+    "options": [
+      "A. The rate decreases by exactly 9 mmol/s per degree.",
+      "B. The reaction rate is independent of temperature.",
+      "C. The reaction rate increases linearly with temperature within the studied range.",
+      "D. The enzyme denatures completely above 20°C."
+    ],
+    "correctAnswer": "C. The reaction rate increases linearly with temperature within the studied range.",
+    "explanation": "Because the measured rate increases progressively to 28 mmol/s as temperature rises over this specific interval, the directly proportional data supports a linear increase prior to any hypothetical denaturation."
+  },
+  {
+    "subject": "Science Reasoning",
+    "text": "A biologist conducts an experiment observing enzyme activity. At temperature 30°C, the reaction rate was measured at 30 mmol/s. If the trend is strictly linear within this range, what is the best description of the relationship?",
+    "options": [
+      "A. The rate decreases by exactly 10 mmol/s per degree.",
+      "B. The reaction rate is independent of temperature.",
+      "C. The reaction rate increases linearly with temperature within the studied range.",
+      "D. The enzyme denatures completely above 20°C."
+    ],
+    "correctAnswer": "C. The reaction rate increases linearly with temperature within the studied range.",
+    "explanation": "Because the measured rate increases progressively to 30 mmol/s as temperature rises over this specific interval, the directly proportional data supports a linear increase prior to any hypothetical denaturation."
+  },
+  {
+    "subject": "Science Reasoning",
+    "text": "A biologist conducts an experiment observing enzyme activity. At temperature 31°C, the reaction rate was measured at 32 mmol/s. If the trend is strictly linear within this range, what is the best description of the relationship?",
+    "options": [
+      "A. The rate decreases by exactly 11 mmol/s per degree.",
+      "B. The reaction rate is independent of temperature.",
+      "C. The reaction rate increases linearly with temperature within the studied range.",
+      "D. The enzyme denatures completely above 20°C."
+    ],
+    "correctAnswer": "C. The reaction rate increases linearly with temperature within the studied range.",
+    "explanation": "Because the measured rate increases progressively to 32 mmol/s as temperature rises over this specific interval, the directly proportional data supports a linear increase prior to any hypothetical denaturation."
+  },
+  {
+    "subject": "Science Reasoning",
+    "text": "A biologist conducts an experiment observing enzyme activity. At temperature 32°C, the reaction rate was measured at 34 mmol/s. If the trend is strictly linear within this range, what is the best description of the relationship?",
+    "options": [
+      "A. The rate decreases by exactly 12 mmol/s per degree.",
+      "B. The reaction rate is independent of temperature.",
+      "C. The reaction rate increases linearly with temperature within the studied range.",
+      "D. The enzyme denatures completely above 20°C."
+    ],
+    "correctAnswer": "C. The reaction rate increases linearly with temperature within the studied range.",
+    "explanation": "Because the measured rate increases progressively to 34 mmol/s as temperature rises over this specific interval, the directly proportional data supports a linear increase prior to any hypothetical denaturation."
+  },
+  {
+    "subject": "Science Reasoning",
+    "text": "A biologist conducts an experiment observing enzyme activity. At temperature 33°C, the reaction rate was measured at 36 mmol/s. If the trend is strictly linear within this range, what is the best description of the relationship?",
+    "options": [
+      "A. The rate decreases by exactly 13 mmol/s per degree.",
+      "B. The reaction rate is independent of temperature.",
+      "C. The reaction rate increases linearly with temperature within the studied range.",
+      "D. The enzyme denatures completely above 20°C."
+    ],
+    "correctAnswer": "C. The reaction rate increases linearly with temperature within the studied range.",
+    "explanation": "Because the measured rate increases progressively to 36 mmol/s as temperature rises over this specific interval, the directly proportional data supports a linear increase prior to any hypothetical denaturation."
+  },
+  {
+    "subject": "Science Reasoning",
+    "text": "A biologist conducts an experiment observing enzyme activity. At temperature 34°C, the reaction rate was measured at 38 mmol/s. If the trend is strictly linear within this range, what is the best description of the relationship?",
+    "options": [
+      "A. The rate decreases by exactly 14 mmol/s per degree.",
+      "B. The reaction rate is independent of temperature.",
+      "C. The reaction rate increases linearly with temperature within the studied range.",
+      "D. The enzyme denatures completely above 20°C."
+    ],
+    "correctAnswer": "C. The reaction rate increases linearly with temperature within the studied range.",
+    "explanation": "Because the measured rate increases progressively to 38 mmol/s as temperature rises over this specific interval, the directly proportional data supports a linear increase prior to any hypothetical denaturation."
+  },
+  {
+    "subject": "Science Reasoning",
+    "text": "A biologist conducts an experiment observing enzyme activity. At temperature 35°C, the reaction rate was measured at 40 mmol/s. If the trend is strictly linear within this range, what is the best description of the relationship?",
+    "options": [
+      "A. The rate decreases by exactly 15 mmol/s per degree.",
+      "B. The reaction rate is independent of temperature.",
+      "C. The reaction rate increases linearly with temperature within the studied range.",
+      "D. The enzyme denatures completely above 20°C."
+    ],
+    "correctAnswer": "C. The reaction rate increases linearly with temperature within the studied range.",
+    "explanation": "Because the measured rate increases progressively to 40 mmol/s as temperature rises over this specific interval, the directly proportional data supports a linear increase prior to any hypothetical denaturation."
+  },
+  {
+    "subject": "Science Reasoning",
+    "text": "A biologist conducts an experiment observing enzyme activity. At temperature 36°C, the reaction rate was measured at 42 mmol/s. If the trend is strictly linear within this range, what is the best description of the relationship?",
+    "options": [
+      "A. The rate decreases by exactly 16 mmol/s per degree.",
+      "B. The reaction rate is independent of temperature.",
+      "C. The reaction rate increases linearly with temperature within the studied range.",
+      "D. The enzyme denatures completely above 20°C."
+    ],
+    "correctAnswer": "C. The reaction rate increases linearly with temperature within the studied range.",
+    "explanation": "Because the measured rate increases progressively to 42 mmol/s as temperature rises over this specific interval, the directly proportional data supports a linear increase prior to any hypothetical denaturation."
+  },
+  {
+    "subject": "Science Reasoning",
+    "text": "A biologist conducts an experiment observing enzyme activity. At temperature 37°C, the reaction rate was measured at 44 mmol/s. If the trend is strictly linear within this range, what is the best description of the relationship?",
+    "options": [
+      "A. The rate decreases by exactly 17 mmol/s per degree.",
+      "B. The reaction rate is independent of temperature.",
+      "C. The reaction rate increases linearly with temperature within the studied range.",
+      "D. The enzyme denatures completely above 20°C."
+    ],
+    "correctAnswer": "C. The reaction rate increases linearly with temperature within the studied range.",
+    "explanation": "Because the measured rate increases progressively to 44 mmol/s as temperature rises over this specific interval, the directly proportional data supports a linear increase prior to any hypothetical denaturation."
+  },
+  {
+    "subject": "Science Reasoning",
+    "text": "A biologist conducts an experiment observing enzyme activity. At temperature 38°C, the reaction rate was measured at 46 mmol/s. If the trend is strictly linear within this range, what is the best description of the relationship?",
+    "options": [
+      "A. The rate decreases by exactly 18 mmol/s per degree.",
+      "B. The reaction rate is independent of temperature.",
+      "C. The reaction rate increases linearly with temperature within the studied range.",
+      "D. The enzyme denatures completely above 20°C."
+    ],
+    "correctAnswer": "C. The reaction rate increases linearly with temperature within the studied range.",
+    "explanation": "Because the measured rate increases progressively to 46 mmol/s as temperature rises over this specific interval, the directly proportional data supports a linear increase prior to any hypothetical denaturation."
+  },
+  {
+    "subject": "Science Reasoning",
+    "text": "A biologist conducts an experiment observing enzyme activity. At temperature 39°C, the reaction rate was measured at 48 mmol/s. If the trend is strictly linear within this range, what is the best description of the relationship?",
+    "options": [
+      "A. The rate decreases by exactly 19 mmol/s per degree.",
+      "B. The reaction rate is independent of temperature.",
+      "C. The reaction rate increases linearly with temperature within the studied range.",
+      "D. The enzyme denatures completely above 20°C."
+    ],
+    "correctAnswer": "C. The reaction rate increases linearly with temperature within the studied range.",
+    "explanation": "Because the measured rate increases progressively to 48 mmol/s as temperature rises over this specific interval, the directly proportional data supports a linear increase prior to any hypothetical denaturation."
+  },
+  {
+    "subject": "Science Reasoning",
+    "text": "A biologist conducts an experiment observing enzyme activity. At temperature 40°C, the reaction rate was measured at 50 mmol/s. If the trend is strictly linear within this range, what is the best description of the relationship?",
+    "options": [
+      "A. The rate decreases by exactly 20 mmol/s per degree.",
+      "B. The reaction rate is independent of temperature.",
+      "C. The reaction rate increases linearly with temperature within the studied range.",
+      "D. The enzyme denatures completely above 20°C."
+    ],
+    "correctAnswer": "C. The reaction rate increases linearly with temperature within the studied range.",
+    "explanation": "Because the measured rate increases progressively to 50 mmol/s as temperature rises over this specific interval, the directly proportional data supports a linear increase prior to any hypothetical denaturation."
+  },
+  {
+    "subject": "Science Reasoning",
+    "text": "A biologist conducts an experiment observing enzyme activity. At temperature 41°C, the reaction rate was measured at 52 mmol/s. If the trend is strictly linear within this range, what is the best description of the relationship?",
+    "options": [
+      "A. The rate decreases by exactly 21 mmol/s per degree.",
+      "B. The reaction rate is independent of temperature.",
+      "C. The reaction rate increases linearly with temperature within the studied range.",
+      "D. The enzyme denatures completely above 20°C."
+    ],
+    "correctAnswer": "C. The reaction rate increases linearly with temperature within the studied range.",
+    "explanation": "Because the measured rate increases progressively to 52 mmol/s as temperature rises over this specific interval, the directly proportional data supports a linear increase prior to any hypothetical denaturation."
+  },
+  {
+    "subject": "Science Reasoning",
+    "text": "A biologist conducts an experiment observing enzyme activity. At temperature 42°C, the reaction rate was measured at 54 mmol/s. If the trend is strictly linear within this range, what is the best description of the relationship?",
+    "options": [
+      "A. The rate decreases by exactly 22 mmol/s per degree.",
+      "B. The reaction rate is independent of temperature.",
+      "C. The reaction rate increases linearly with temperature within the studied range.",
+      "D. The enzyme denatures completely above 20°C."
+    ],
+    "correctAnswer": "C. The reaction rate increases linearly with temperature within the studied range.",
+    "explanation": "Because the measured rate increases progressively to 54 mmol/s as temperature rises over this specific interval, the directly proportional data supports a linear increase prior to any hypothetical denaturation."
+  },
+  {
+    "subject": "Science Reasoning",
+    "text": "A biologist conducts an experiment observing enzyme activity. At temperature 43°C, the reaction rate was measured at 56 mmol/s. If the trend is strictly linear within this range, what is the best description of the relationship?",
+    "options": [
+      "A. The rate decreases by exactly 23 mmol/s per degree.",
+      "B. The reaction rate is independent of temperature.",
+      "C. The reaction rate increases linearly with temperature within the studied range.",
+      "D. The enzyme denatures completely above 20°C."
+    ],
+    "correctAnswer": "C. The reaction rate increases linearly with temperature within the studied range.",
+    "explanation": "Because the measured rate increases progressively to 56 mmol/s as temperature rises over this specific interval, the directly proportional data supports a linear increase prior to any hypothetical denaturation."
+  },
+  {
+    "subject": "Science Reasoning",
+    "text": "A biologist conducts an experiment observing enzyme activity. At temperature 44°C, the reaction rate was measured at 58 mmol/s. If the trend is strictly linear within this range, what is the best description of the relationship?",
+    "options": [
+      "A. The rate decreases by exactly 24 mmol/s per degree.",
+      "B. The reaction rate is independent of temperature.",
+      "C. The reaction rate increases linearly with temperature within the studied range.",
+      "D. The enzyme denatures completely above 20°C."
+    ],
+    "correctAnswer": "C. The reaction rate increases linearly with temperature within the studied range.",
+    "explanation": "Because the measured rate increases progressively to 58 mmol/s as temperature rises over this specific interval, the directly proportional data supports a linear increase prior to any hypothetical denaturation."
+  },
+  {
+    "subject": "Science Reasoning",
+    "text": "A biologist conducts an experiment observing enzyme activity. At temperature 45°C, the reaction rate was measured at 60 mmol/s. If the trend is strictly linear within this range, what is the best description of the relationship?",
+    "options": [
+      "A. The rate decreases by exactly 25 mmol/s per degree.",
+      "B. The reaction rate is independent of temperature.",
+      "C. The reaction rate increases linearly with temperature within the studied range.",
+      "D. The enzyme denatures completely above 20°C."
+    ],
+    "correctAnswer": "C. The reaction rate increases linearly with temperature within the studied range.",
+    "explanation": "Because the measured rate increases progressively to 60 mmol/s as temperature rises over this specific interval, the directly proportional data supports a linear increase prior to any hypothetical denaturation."
+  },
+  {
+    "subject": "Mathematics Reasoning",
+    "text": "A train travels a distance of 135 km at a uniform speed of 45 km/hr. If the speed were increased by 10 km/hr, how many hours would the journey take?",
+    "options": [
+      "A. 2.45 hours",
+      "B. 3 hours",
+      "C. 3.86 hours",
+      "D. 4 hours"
+    ],
+    "correctAnswer": "A. 2.45 hours",
+    "explanation": "Original time = 135/45 = 3 hours. New speed = 55 km/hr. New time = 135/(55) = 2.45 hours."
+  },
+  {
+    "subject": "Mathematics Reasoning",
+    "text": "A train travels a distance of 150 km at a uniform speed of 50 km/hr. If the speed were increased by 10 km/hr, how many hours would the journey take?",
+    "options": [
+      "A. 2.50 hours",
+      "B. 3 hours",
+      "C. 3.75 hours",
+      "D. 4 hours"
+    ],
+    "correctAnswer": "A. 2.50 hours",
+    "explanation": "Original time = 150/50 = 3 hours. New speed = 60 km/hr. New time = 150/(60) = 2.50 hours."
+  },
+  {
+    "subject": "Mathematics Reasoning",
+    "text": "A train travels a distance of 165 km at a uniform speed of 55 km/hr. If the speed were increased by 10 km/hr, how many hours would the journey take?",
+    "options": [
+      "A. 2.54 hours",
+      "B. 3 hours",
+      "C. 3.67 hours",
+      "D. 4 hours"
+    ],
+    "correctAnswer": "A. 2.54 hours",
+    "explanation": "Original time = 165/55 = 3 hours. New speed = 65 km/hr. New time = 165/(65) = 2.54 hours."
+  },
+  {
+    "subject": "Mathematics Reasoning",
+    "text": "A train travels a distance of 180 km at a uniform speed of 60 km/hr. If the speed were increased by 10 km/hr, how many hours would the journey take?",
+    "options": [
+      "A. 2.57 hours",
+      "B. 3 hours",
+      "C. 3.60 hours",
+      "D. 4 hours"
+    ],
+    "correctAnswer": "A. 2.57 hours",
+    "explanation": "Original time = 180/60 = 3 hours. New speed = 70 km/hr. New time = 180/(70) = 2.57 hours."
+  },
+  {
+    "subject": "Mathematics Reasoning",
+    "text": "A train travels a distance of 195 km at a uniform speed of 65 km/hr. If the speed were increased by 10 km/hr, how many hours would the journey take?",
+    "options": [
+      "A. 2.60 hours",
+      "B. 3 hours",
+      "C. 3.55 hours",
+      "D. 4 hours"
+    ],
+    "correctAnswer": "A. 2.60 hours",
+    "explanation": "Original time = 195/65 = 3 hours. New speed = 75 km/hr. New time = 195/(75) = 2.60 hours."
+  },
+  {
+    "subject": "Mathematics Reasoning",
+    "text": "A train travels a distance of 210 km at a uniform speed of 70 km/hr. If the speed were increased by 10 km/hr, how many hours would the journey take?",
+    "options": [
+      "A. 2.63 hours",
+      "B. 3 hours",
+      "C. 3.50 hours",
+      "D. 4 hours"
+    ],
+    "correctAnswer": "A. 2.63 hours",
+    "explanation": "Original time = 210/70 = 3 hours. New speed = 80 km/hr. New time = 210/(80) = 2.63 hours."
+  },
+  {
+    "subject": "Mathematics Reasoning",
+    "text": "A train travels a distance of 225 km at a uniform speed of 75 km/hr. If the speed were increased by 10 km/hr, how many hours would the journey take?",
+    "options": [
+      "A. 2.65 hours",
+      "B. 3 hours",
+      "C. 3.46 hours",
+      "D. 4 hours"
+    ],
+    "correctAnswer": "A. 2.65 hours",
+    "explanation": "Original time = 225/75 = 3 hours. New speed = 85 km/hr. New time = 225/(85) = 2.65 hours."
+  },
+  {
+    "subject": "Mathematics Reasoning",
+    "text": "A train travels a distance of 240 km at a uniform speed of 80 km/hr. If the speed were increased by 10 km/hr, how many hours would the journey take?",
+    "options": [
+      "A. 2.67 hours",
+      "B. 3 hours",
+      "C. 3.43 hours",
+      "D. 4 hours"
+    ],
+    "correctAnswer": "A. 2.67 hours",
+    "explanation": "Original time = 240/80 = 3 hours. New speed = 90 km/hr. New time = 240/(90) = 2.67 hours."
+  },
+  {
+    "subject": "Mathematics Reasoning",
+    "text": "A train travels a distance of 255 km at a uniform speed of 85 km/hr. If the speed were increased by 10 km/hr, how many hours would the journey take?",
+    "options": [
+      "A. 2.68 hours",
+      "B. 3 hours",
+      "C. 3.40 hours",
+      "D. 4 hours"
+    ],
+    "correctAnswer": "A. 2.68 hours",
+    "explanation": "Original time = 255/85 = 3 hours. New speed = 95 km/hr. New time = 255/(95) = 2.68 hours."
+  },
+  {
+    "subject": "Mathematics Reasoning",
+    "text": "A train travels a distance of 270 km at a uniform speed of 90 km/hr. If the speed were increased by 10 km/hr, how many hours would the journey take?",
+    "options": [
+      "A. 2.70 hours",
+      "B. 3 hours",
+      "C. 3.38 hours",
+      "D. 4 hours"
+    ],
+    "correctAnswer": "A. 2.70 hours",
+    "explanation": "Original time = 270/90 = 3 hours. New speed = 100 km/hr. New time = 270/(100) = 2.70 hours."
+  },
+  {
+    "subject": "Mathematics Reasoning",
+    "text": "A train travels a distance of 285 km at a uniform speed of 95 km/hr. If the speed were increased by 10 km/hr, how many hours would the journey take?",
+    "options": [
+      "A. 2.71 hours",
+      "B. 3 hours",
+      "C. 3.35 hours",
+      "D. 4 hours"
+    ],
+    "correctAnswer": "A. 2.71 hours",
+    "explanation": "Original time = 285/95 = 3 hours. New speed = 105 km/hr. New time = 285/(105) = 2.71 hours."
+  },
+  {
+    "subject": "Mathematics Reasoning",
+    "text": "A train travels a distance of 300 km at a uniform speed of 100 km/hr. If the speed were increased by 10 km/hr, how many hours would the journey take?",
+    "options": [
+      "A. 2.73 hours",
+      "B. 3 hours",
+      "C. 3.33 hours",
+      "D. 4 hours"
+    ],
+    "correctAnswer": "A. 2.73 hours",
+    "explanation": "Original time = 300/100 = 3 hours. New speed = 110 km/hr. New time = 300/(110) = 2.73 hours."
+  },
+  {
+    "subject": "Mathematics Reasoning",
+    "text": "A train travels a distance of 315 km at a uniform speed of 105 km/hr. If the speed were increased by 10 km/hr, how many hours would the journey take?",
+    "options": [
+      "A. 2.74 hours",
+      "B. 3 hours",
+      "C. 3.32 hours",
+      "D. 4 hours"
+    ],
+    "correctAnswer": "A. 2.74 hours",
+    "explanation": "Original time = 315/105 = 3 hours. New speed = 115 km/hr. New time = 315/(115) = 2.74 hours."
+  },
+  {
+    "subject": "Mathematics Reasoning",
+    "text": "A train travels a distance of 330 km at a uniform speed of 110 km/hr. If the speed were increased by 10 km/hr, how many hours would the journey take?",
+    "options": [
+      "A. 2.75 hours",
+      "B. 3 hours",
+      "C. 3.30 hours",
+      "D. 4 hours"
+    ],
+    "correctAnswer": "A. 2.75 hours",
+    "explanation": "Original time = 330/110 = 3 hours. New speed = 120 km/hr. New time = 330/(120) = 2.75 hours."
+  },
+  {
+    "subject": "Mathematics Reasoning",
+    "text": "A train travels a distance of 345 km at a uniform speed of 115 km/hr. If the speed were increased by 10 km/hr, how many hours would the journey take?",
+    "options": [
+      "A. 2.76 hours",
+      "B. 3 hours",
+      "C. 3.29 hours",
+      "D. 4 hours"
+    ],
+    "correctAnswer": "A. 2.76 hours",
+    "explanation": "Original time = 345/115 = 3 hours. New speed = 125 km/hr. New time = 345/(125) = 2.76 hours."
+  },
+  {
+    "subject": "Mathematics Reasoning",
+    "text": "A train travels a distance of 360 km at a uniform speed of 120 km/hr. If the speed were increased by 10 km/hr, how many hours would the journey take?",
+    "options": [
+      "A. 2.77 hours",
+      "B. 3 hours",
+      "C. 3.27 hours",
+      "D. 4 hours"
+    ],
+    "correctAnswer": "A. 2.77 hours",
+    "explanation": "Original time = 360/120 = 3 hours. New speed = 130 km/hr. New time = 360/(130) = 2.77 hours."
+  },
+  {
+    "subject": "Mathematics Reasoning",
+    "text": "A train travels a distance of 375 km at a uniform speed of 125 km/hr. If the speed were increased by 10 km/hr, how many hours would the journey take?",
+    "options": [
+      "A. 2.78 hours",
+      "B. 3 hours",
+      "C. 3.26 hours",
+      "D. 4 hours"
+    ],
+    "correctAnswer": "A. 2.78 hours",
+    "explanation": "Original time = 375/125 = 3 hours. New speed = 135 km/hr. New time = 375/(135) = 2.78 hours."
+  },
+  {
+    "subject": "Mathematics Reasoning",
+    "text": "A train travels a distance of 390 km at a uniform speed of 130 km/hr. If the speed were increased by 10 km/hr, how many hours would the journey take?",
+    "options": [
+      "A. 2.79 hours",
+      "B. 3 hours",
+      "C. 3.25 hours",
+      "D. 4 hours"
+    ],
+    "correctAnswer": "A. 2.79 hours",
+    "explanation": "Original time = 390/130 = 3 hours. New speed = 140 km/hr. New time = 390/(140) = 2.79 hours."
+  },
+  {
+    "subject": "Mathematics Reasoning",
+    "text": "A train travels a distance of 405 km at a uniform speed of 135 km/hr. If the speed were increased by 10 km/hr, how many hours would the journey take?",
+    "options": [
+      "A. 2.79 hours",
+      "B. 3 hours",
+      "C. 3.24 hours",
+      "D. 4 hours"
+    ],
+    "correctAnswer": "A. 2.79 hours",
+    "explanation": "Original time = 405/135 = 3 hours. New speed = 145 km/hr. New time = 405/(145) = 2.79 hours."
+  },
+  {
+    "subject": "Mathematics Reasoning",
+    "text": "A train travels a distance of 420 km at a uniform speed of 140 km/hr. If the speed were increased by 10 km/hr, how many hours would the journey take?",
+    "options": [
+      "A. 2.80 hours",
+      "B. 3 hours",
+      "C. 3.23 hours",
+      "D. 4 hours"
+    ],
+    "correctAnswer": "A. 2.80 hours",
+    "explanation": "Original time = 420/140 = 3 hours. New speed = 150 km/hr. New time = 420/(150) = 2.80 hours."
+  },
+  {
+    "subject": "Mathematics Reasoning",
+    "text": "A train travels a distance of 435 km at a uniform speed of 145 km/hr. If the speed were increased by 10 km/hr, how many hours would the journey take?",
+    "options": [
+      "A. 2.81 hours",
+      "B. 3 hours",
+      "C. 3.22 hours",
+      "D. 4 hours"
+    ],
+    "correctAnswer": "A. 2.81 hours",
+    "explanation": "Original time = 435/145 = 3 hours. New speed = 155 km/hr. New time = 435/(155) = 2.81 hours."
+  },
+  {
+    "subject": "Mathematics Reasoning",
+    "text": "A train travels a distance of 450 km at a uniform speed of 150 km/hr. If the speed were increased by 10 km/hr, how many hours would the journey take?",
+    "options": [
+      "A. 2.81 hours",
+      "B. 3 hours",
+      "C. 3.21 hours",
+      "D. 4 hours"
+    ],
+    "correctAnswer": "A. 2.81 hours",
+    "explanation": "Original time = 450/150 = 3 hours. New speed = 160 km/hr. New time = 450/(160) = 2.81 hours."
+  }
+]
